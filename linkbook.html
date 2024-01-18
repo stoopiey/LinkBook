@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkBook</title>
+
+    <style>
+        body{
+                background: black;
+                color: white;
+        }
+
+          .linkbook{
+                width: 1500px;
+                height: 69px;
+                font-size: 60px;
+                margin-left: 158px;
+                border-radius: 7px;
+                border-color: aqua;
+                color: aqua;
+                cursor: pointer;
+           }
+
+           #firstsent{
+                margin-left: 158px;
+           }
+
+           #secondsent{
+                margin-left: 158px; 
+           }
+
+           #thirdsent{
+                margin-left: 158px;
+           }
+
+           .links{
+                margin-left: 500px;
+                width: 225px;
+                height: 50px;
+                border-radius: 6px;
+                border: none;
+                background-color: aquamarine;
+                color: rgb(148, 148, 148);
+                font-size: larger;
+                transition: opacity 0.15s;
+                cursor: pointer;
+            }
+            .links:hover{
+                opacity:0.7;
+            }
+
+            .links:active{
+                background-color: aqua;
+            }
+
+            .games{
+                margin-left: 260px;
+                width: 225px;
+                height: 50px;
+                border-radius: 6px;
+                border: none;
+                background-color: navy;
+                color: white;
+                font-size: larger;
+                transition: opacity;
+                cursor: pointer;
+            }
+
+            .games:hover{
+                opacity: 0.7;
+            }
+
+            .games:active{
+                background-color: darkblue;
+            }
+    </style>
+</head>
+<body>
+    <button class="linkbook" onclick="location=href=''" >
+        LinkBook
+    </button>
+
+    <p id="firstsent">
+        Welcome to LinkBook,the website where you can find links to some of the most useful websites ever!
+    </p>
+
+    <p id="secondsent">
+        Click the "Links" button to view the collections of links
+    </p>
+
+    <p id="thirdsent">
+        Click the "Games" button to view games!
+    </p>
+
+    <button class="links" onclick="location=href''" target="blank">
+        Links
+    </button>
+
+    <button class="games" onclick="location=href=''" target="blank">
+        Games
+    </button>
+</body>
+</html>
